@@ -29,4 +29,5 @@ set cindent         " use C-style auto indenting
 " Search
 set ignorecase      " ignore case in searches
 set hlsearch        " highlights all search results
-
+" unset search highlighting by pressing return:
+nnoremap <CR> :noh<CR><CR>
