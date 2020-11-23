@@ -18,6 +18,10 @@ set shiftwidth=4    " number of spaces to auto-indent
 set smartindent
 set smarttab
 
+set foldmethod=syntax	" code-folding based on code syntax you can use this with (zo) = open, (zc) = close
+"set foldnestmax=1		" how many nested things can be folded (useful when auto-folding on file open)
+set foldlevel=99		" folding next level that should be auto-folded when file opens
+
 " Tabs & lines
 "
 set tabstop=4       " how wide should tabs be
