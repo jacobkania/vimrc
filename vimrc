@@ -1,6 +1,8 @@
 " ensure that plugins in ~/.vim/ftplugin work
 filetype plugin indent on
 
+let mapleader=","
+
 " Visuals
 "
 set number          " ensures that current line gets true line number showing
@@ -42,3 +44,8 @@ nnoremap <CR> :noh<CR><CR>
 "
 set undofile        " allows vim to persist undo history (which defaults to the same directory as the working file)
 set undodir=~/.vim/undo_history " sets vim's undo history to save in the given directory
+
+"""""" 
+"""""" FUNCTIONS
+"""""" 
+
