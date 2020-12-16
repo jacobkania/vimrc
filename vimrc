@@ -10,7 +10,7 @@ set relativenumber  " shows line numbers relative to current line
 set showcmd         " show the command being currently typed in the bottom of display
 set ruler           " show the current line and column on bottom display
 
-set spell           " enable spellcheck
+" set spell           " enable spellcheck
 
 " Code
 "
